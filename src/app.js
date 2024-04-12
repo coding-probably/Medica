@@ -19,11 +19,13 @@ app.use(cookieParser())
 import userRouter from './routes/user.routes.js'
 import hospitalRouter from './routes/hospital.routes.js'
 import doctorRouter from './routes/doctor.routes.js'
+import patientRouter from './routes/patient.routes.js'
 //routes declaration
 
 app.use("/api/v1/users", userRouter)
 app.use('/api/v1/users/hospital', hospitalRouter)
 app.use('/api/v1/users/doctor',doctorRouter)
+app.use('/api/v1/users',patientRouter)
 
 
 // http://localhost:8000/api/v1/users/register
