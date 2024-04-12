@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text: #12171c;
+    --secondary-text: #354a5f;
+}
+.card{
+    margin: 10px;
+    height: 14rem;
+    width: 28rem;
+    background-color: beige;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    border-radius: .4rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------ visual area --------- */
+.visual-area{
+    height: 14rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient-image{
+    height: 12.4rem;
+    width: 12.4rem;
+    background-color: aqua;
+    border-radius: .2rem;
+}
+
+
+
+/* -------- item desc ---------- */
+.patient-desc{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.patient-desc h3{
+    margin-top: 1rem;
+    color: var(--primary-text);
+    font-size: 2;
+}
+.patient-desc h5{
+    margin-top: .6rem;
+    color: var(--secondary-text);
+    font-size: 2;
+}
+.patient-desc p{
+    font-size: 14px;
+    margin-top: .6rem;
+    padding-right: .4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+

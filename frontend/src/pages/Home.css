@@ -1,0 +1,16 @@
+.home-main{
+    flex-direction: column;
+}
+
+.content-area-home{
+    height: 3rem;
+    width: 100%;
+}
+
+.patient-grid{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
